@@ -1,0 +1,53 @@
+{
+  "name": "nexus",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An immersive real-time ASCII universe: a custom GPU glyph engine, a procedural galaxy, a ray-marched black hole and hidden dimensions. Built with Three.js, GLSL, React and TypeScript.",
+  "keywords": [
+    "threejs",
+    "webgl2",
+    "glsl",
+    "shaders",
+    "ascii",
+    "ascii-art",
+    "creative-coding",
+    "generative-art",
+    "black-hole",
+    "gravitational-lensing",
+    "react",
+    "typescript",
+    "vite",
+    "web-audio"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "build:remote-fonts": "tsc -p tsconfig.json && vite build --mode remote-fonts",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "gsap": "^3.15.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
